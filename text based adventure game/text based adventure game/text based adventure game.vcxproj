@@ -115,11 +115,13 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="mob.cpp" />
+    <ClCompile Include="weapons.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="forest location.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="mob.h" />
+    <ClInclude Include="weapons.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

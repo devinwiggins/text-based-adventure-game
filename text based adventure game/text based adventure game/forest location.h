@@ -13,9 +13,11 @@ class area
 	bool m_weapon;
 	bool m_ambush;
 	bool m_special_weapon;
+	bool m_white_birch;
 
 public:
 	area() {};
-	area(bool nPath, bool ePath, bool sPath, bool wPath, bool enemy, bool gameWin, bool hint, bool cabin, bool weapon, bool ambush, bool gl, const char*);
+	area(bool nPath, bool ePath, bool sPath, bool wPath, bool enemy, bool gameWin, bool hint, bool cabin, bool weapon, bool ambush, bool gl, bool tree, const char*);
+	void map_struct();
 	void areaText();
 };

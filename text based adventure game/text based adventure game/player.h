@@ -5,7 +5,7 @@
 class player
 {
 	int m_hp;
-	int playerx
+	int name;
 public:
 	player(){};
 	
