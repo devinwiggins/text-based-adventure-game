@@ -1,11 +1,8 @@
-﻿  player.cpp
+﻿  weapons.cpp
+  mob.cpp
+  player.cpp
   main.cpp
-c:\users\devin.wiggins\documents\visual studio 2015\projects\text based adventure game\text based adventure game\main.cpp(35): error C2059: syntax error: '{'
-c:\users\devin.wiggins\documents\visual studio 2015\projects\text based adventure game\text based adventure game\main.cpp(35): error C2143: syntax error: missing ';' before '{'
-c:\users\devin.wiggins\documents\visual studio 2015\projects\text based adventure game\text based adventure game\main.cpp(35): error C2059: syntax error: '}'
-c:\users\devin.wiggins\documents\visual studio 2015\projects\text based adventure game\text based adventure game\main.cpp(36): error C2059: syntax error: '}'
-c:\users\devin.wiggins\documents\visual studio 2015\projects\text based adventure game\text based adventure game\main.cpp(37): error C2143: syntax error: missing ';' before '}'
-c:\users\devin.wiggins\documents\visual studio 2015\projects\text based adventure game\text based adventure game\main.cpp(39): error C2059: syntax error: '}'
-c:\users\devin.wiggins\documents\visual studio 2015\projects\text based adventure game\text based adventure game\main.cpp(39): error C2143: syntax error: missing ';' before '}'
   forest location.cpp
   Generating Code...
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall MyString::MyString(char *)" (??0MyString@@QAE@PAD@Z) referenced in function _main
+C:\Users\devin.wiggins\Documents\GitHub\text-based-adventure-game\text based adventure game\Debug\Final Night.exe : fatal error LNK1120: 1 unresolved externals
