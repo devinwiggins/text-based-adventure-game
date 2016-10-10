@@ -23,12 +23,12 @@ void Map::map_struct()
 	//north door, east door, south door, west door, enemy, gamewin, hint, cabin, weapon, ambush, special weapon, white birch tree, text
 	Map location01 = Map{ 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, "" };
 	Map location02 = Map{ 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, "" };
-	Map location03 = Map{ 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, "" };
+	Map location03 = Map{ 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, "" };
 	Map location04 = Map{ 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, "" };
 	Map location05 = Map{ 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, "" };
 	Map location06 = Map{ 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, "" };
 	Map location07 = Map{ 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, "" };
-	Map location08 = Map{ 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, "" };
+	Map location08 = Map{ 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, "you're inside of a cabin. There's a marking on the door that reads '12'. a note reads''\n\n A thing is a atacking!!." };
 	Map location09 = Map{ 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, "" };
 	Map location10 = Map{ 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, "" };
 	Map location11 = Map{ 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, "" };

@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include "player.h"
 class Map
 {
 	bool m_north_door;
@@ -15,6 +16,7 @@ class Map
 	bool m_ambush;
 	bool m_special_weapon;
 	bool m_white_birch;
+	
 
 public:
 	Map() {};

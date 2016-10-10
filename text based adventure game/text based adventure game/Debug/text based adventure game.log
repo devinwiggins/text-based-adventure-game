@@ -1,8 +1,36 @@
-﻿  weapons.cpp
-  mob.cpp
-  player.cpp
-  main.cpp
-  forest location.cpp
-  Generating Code...
-main.obj : error LNK2019: unresolved external symbol "public: __thiscall MyString::MyString(char *)" (??0MyString@@QAE@PAD@Z) referenced in function _main
-C:\Users\devin.wiggins\Documents\GitHub\text-based-adventure-game\text based adventure game\Debug\Final Night.exe : fatal error LNK1120: 1 unresolved externals
+﻿Build started 10/10/2016 12:19:23 PM.
+     1>Project "C:\Users\devin.wiggins\Documents\GitHub\text-based-adventure-game\text based adventure game\text based adventure game\text based adventure game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "forest location.cpp" main.cpp player.cpp weapons.cpp
+         weapons.cpp
+     1>c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\player.h(5): error C2143: syntax error: missing ';' before '*'
+     1>c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\player.h(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\player.h(5): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\player.h(10): error C2061: syntax error: identifier 'Weapons'
+     1>c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\player.h(11): error C2143: syntax error: missing ';' before '*'
+     1>c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\player.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\player.h(11): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\player.h(8): error C2614: 'player': illegal member initialization: 'm_weapon' is not a base or member
+     1>c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\player.h(10): error C2039: 'm_weapon': is not a member of 'player'
+         c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\player.h(4): note: see declaration of 'player'
+         c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\player.h(4): note: see declaration of 'player'
+     1>c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\player.h(10): error C2065: 'weapon': undeclared identifier
+     1>c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\player.h(12): error C2039: 'm_weapon': is not a member of 'player'
+         c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\player.h(4): note: see declaration of 'player'
+     1>c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\weapons.cpp(3): error C2511: 'Weapons::Weapons(MyString,int)': overloaded member function not found in 'Weapons'
+         c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\weapons.h(7): note: see declaration of 'Weapons'
+     1>c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\weapons.cpp(4): error C2597: illegal reference to non-static member 'Weapons::m_name'
+     1>c:\users\devin.wiggins\documents\github\text-based-adventure-game\text based adventure game\text based adventure game\weapons.cpp(5): error C2597: illegal reference to non-static member 'Weapons::WeaponID'
+         Generating Code...
+         Compiling...
+         forest location.cpp
+         Generating Code...
+         Compiling...
+         player.cpp
+         main.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\devin.wiggins\Documents\GitHub\text-based-adventure-game\text based adventure game\text based adventure game\text based adventure game.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.03

@@ -9,7 +9,10 @@ class Weapons
 	MyString m_name;
 public:
 	Weapons() {}
-	Weapons(MyString name, int id);
+	Weapons(const MyString& name, int id)
+		: m_name(name), WeaponID(id) {}
+	const MyString& getName(void) const { return this->m_name; }
+	int getID(void) const { return this->WeaponID; }
 	virtual float Damage(void) const = 0;
 	virtual int ammo(void) const = 0;
 	
