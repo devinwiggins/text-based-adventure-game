@@ -2,17 +2,21 @@
 #include "MyString.h"
 #include "forest location.h"
 #include <iostream>
-
-class Weapons
+class Item
 {
-	int WeaponID;
 	MyString m_name;
+	int WeaponID;
 public:
-	Weapons() {}
-	Weapons(const MyString& name, int id)
+	Item(const MyString& name, int id)
 		: m_name(name), WeaponID(id) {}
 	const MyString& getName(void) const { return this->m_name; }
 	int getID(void) const { return this->WeaponID; }
+};
+class Weapons : public Item
+{
+public:
+	Weapons(const MyString& name, int id)
+		: Item(name, id) {}
 	virtual float Damage(void) const = 0;
 	virtual int ammo(void) const = 0;
 	

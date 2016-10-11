@@ -3,6 +3,11 @@
 #include "player.h"
 class Map
 {
+public:
+	Map() {};
+	Map(bool nPath, bool ePath, bool sPath, bool wPath, bool enemy, bool exit, bool hint, bool cabin, bool weapon, bool ambush, bool gl, bool tree, const char*);
+	void map_struct();
+	void LocationText();
 	bool m_north_door;
 	bool m_east_door;
 	bool m_south_door;
@@ -16,11 +21,4 @@ class Map
 	bool m_ambush;
 	bool m_special_weapon;
 	bool m_white_birch;
-	
-
-public:
-	Map() {};
-	Map(bool nPath, bool ePath, bool sPath, bool wPath, bool enemy, bool gameWin, bool hint, bool cabin, bool weapon, bool ambush, bool gl, bool tree, const char*);
-	void map_struct();
-	void LocationText();
 };
