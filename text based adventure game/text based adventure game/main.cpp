@@ -41,7 +41,7 @@ void GameStart()
 		{ location11, location12, location13, location14, location15 },
 		{ location16, location17, location18, location19, location20 }
 	};
-	while (exit);
+
 }
 void readME()
 {
@@ -51,7 +51,7 @@ void readME()
 	printf("if a location has a weapon in it type 'take' to pick it up\n");
 	printf("look out for hints to find the exit of the game there are more than one\n");
 	printf("dont forget that enemies respawn so avoid ambush locations if you can.\n");
-	printf("you will not be able to view instructions in-game")
+	printf("you will not be able to view instructions in-game");
 	printf("press 'E' to begin The game");
 
 	MyString ChangeScreen;
@@ -87,4 +87,4 @@ int main()
 	system("pause");
 	// how to use mystring as a c style string and cin
 }
-// the deciduous leaves are facing south a safe path to egress
+// the deciduous leaves are facing south a safe path to egress 

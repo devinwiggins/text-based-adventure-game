@@ -25,5 +25,4 @@ int player::player_game(MyString Input, Map Locations[][5])
 	{
 		m_x_shift--;
 	}
-	if (Input.findSub("take") == true && Locations[)
 }
